@@ -1,0 +1,6 @@
+
+# 查看redis集群情况
+/usr/local/redis/bin/redis-cli -h 127.0.0.1 -p 7002 -a redis cluster nodes
+
+# 访问7001节点
+/usr/local/redis/bin/redis-cli -c -h 127.0.0.1 -p 7001 -a redis
